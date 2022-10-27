@@ -130,18 +130,18 @@ button{
   vertical-align: middle;
 }
 
-.todo__inner > input[type="checkbox"] {
+.todo__inner > .todo__checkbox {
   margin: 0 10px;
 }
 
-.todo__inner > label {
+.todo__inner > .todo__item-label {
   padding-left: 10px;
   box-sizing: border-box;
   font-size: 18px;
   width: 226px;
 }
 
-.todo__inner > input[type="text"] {
+.todo__inner > .todo__item-input {
   width: 226px;
 }
 
