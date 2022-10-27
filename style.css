@@ -15,6 +15,7 @@
 
 .header__img {
   width: 100%;
+  margin-bottom: -4px;
 }
 
 .header .header__link {
@@ -47,7 +48,7 @@
 /*reset default styles*/
 
 ul {
-  margin: 0;
+  margin: -3px 0 0 0;
   padding: 0;
 }
 
@@ -105,9 +106,9 @@ button{
 
 /* New Task */
 
-.todo__title {
+.todo__title-new {
   display: block;
-  margin: 0 0 20px;
+  margin: 15px 0 20px;
 }
 
 .todo__item-new {
@@ -175,4 +176,8 @@ button{
 
 .todo__edit-mode .todo__item-label {
   display: none;
+}
+
+.todo__add {
+  margin-bottom: 14px;
 }
